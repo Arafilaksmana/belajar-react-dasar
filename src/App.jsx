@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <h1>DIRGA NYOBA DEPLOY</h1>
+      <h1>AYUNI CUKI</h1>
     </>
   )
 }
