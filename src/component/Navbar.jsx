@@ -92,7 +92,7 @@ function Navbar() {
                 </div>
                 
               </div>
-              <a href="" className="mt-10 bg-black w-full block font-light text-left text-white py-2 px-4 rounded-md">
+              <a href="" className="mt-10 bg-black w-full block font-light text-left text-white py-2 px-4 rounded-md relative z-10">
                 Get IT Course
               </a>
             </motion.div>
