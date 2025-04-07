@@ -51,7 +51,7 @@ function Navbar() {
 
       {/* MOBILE NAVBAR */}
       <div className="lg:hidden">
-        <div className="flex bg-white rounded-2xl px-4 py-3 justify-between items-center relative z-10">
+        <div className="flex bg-white rounded-2xl px-4 py-4 justify-between items-center relative top-3 z-10">
           <div>A'rafi Laksmana</div>
           <button
             onClick={() => setDropdownVisible(!isDropdownVisible)}
@@ -92,7 +92,7 @@ function Navbar() {
                 </div>
                 
               </div>
-              <a href="" className="mt-10 bg-black w-full block font-light text-left text-white py-2 px-4 rounded-md relative z-10">
+              <a href="" className="mt-10 bg-black w-full block text-lg text-left text-white py-4 px-4 rounded-md relative z-10">
                 Get IT Course
               </a>
             </motion.div>
