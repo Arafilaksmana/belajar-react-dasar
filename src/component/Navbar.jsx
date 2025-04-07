@@ -101,7 +101,7 @@ function Navbar() {
               <a href="www.grouptikom.com" className="bg-black flex text-white py-4 px-3 rounded-lg mt-5 relative">
                 Get IT Certification
                 <span className="bg-white absolute right-2 top-2 rounded-md py-2 px-2">
-                    <img src="../../public/icons/right-up.png" alt="arrow" className="w-6 " />
+                    <img src="/icons/right-up.png" alt="arrow" className="w-6 " />
                 </span>
               </a>
             </motion.div>
