@@ -78,9 +78,19 @@ function Navbar() {
                 <a href="" className="text-4xl">Contact</a>
               </div>
               <div className="flex flex-col gap-3 py-5 border-b border-b-gray-300">
-                <a href="">LinkedIn<span className="relative -top-0.5 left-0.5">↗</span></a>
-                <a href="">Instagram<span className="relative -top-0.5 left-0.5">↗</span></a>
-                <a href="">X<span className="relative -top-0.5 left-0.5">↗</span></a>
+                <div className="flex space-x-1">
+                    <a href="">LinkedIn</a>
+                    <img src="../../public/right-up.png" alt="" className="w-3 h-3" />
+                </div>
+                <div className="flex space-x-1">
+                    <a href="">Instagram</a>
+                    <img src="../../public/right-up.png" alt="" className="w-3 h-3" />
+                </div>
+                <div className="flex space-x-1">
+                    <a href="">X</a>
+                    <img src="../../public/right-up.png" alt="" className="w-3 h-3" />
+                </div>
+                
               </div>
               <button className="mt-10 bg-black w-full font-light text-left text-white py-2 px-4 rounded-md">
                 Get IT Course
