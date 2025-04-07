@@ -80,15 +80,15 @@ function Navbar() {
               <div className="flex flex-col gap-3 py-5 border-b border-b-gray-300">
                 <div className="flex space-x-1">
                     <a href="">LinkedIn</a>
-                    <img src="../public/right-up.png" alt="" className="w-3 h-3" />
+                    <img src="/icons/right-up.png" alt="" className="w-3 h-3" />
                 </div>
                 <div className="flex space-x-1">
                     <a href="">Instagram</a>
-                    <img src="../public/right-up.png" alt="" className="w-3 h-3" />
+                    <img src="/icons/right-up.png" alt="" className="w-3 h-3" />
                 </div>
                 <div className="flex space-x-1">
                     <a href="">X</a>
-                    <img src="../public/right-up.png" alt="" className="w-3 h-3" />
+                    <img src="/icons/right-up.png" alt="" className="w-3 h-3" />
                 </div>
                 
               </div>
