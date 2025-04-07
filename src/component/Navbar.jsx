@@ -72,7 +72,7 @@ function Navbar() {
               variants={dropdownVariants}
               className="-mt-3 bg-white p-4 rounded-b-2xl "
             >
-              <div className="flex flex-col gap-2 w-full border-b border-b-gray-300 pb-2 mt-60">
+              <div className="flex flex-col gap-5 w-full border-b border-b-gray-300 pb-4 mt-60">
                 <a href="" className="text-4xl">Archive</a>
                 <a href="" className="text-4xl">About</a>
                 <a href="" className="text-4xl">Contact</a>
