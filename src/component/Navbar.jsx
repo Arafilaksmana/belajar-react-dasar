@@ -32,9 +32,9 @@ function Navbar() {
   };
 
   return (
-    <div className="fixed w-full h-fit py-3 px-6 z-10 font-regular border-none backdrop-blur-[3px]">
+    <div className="fixed w-full h-fit py-3 px-10 z-10 font-regular border-none backdrop-blur-[3px]">
       {/* DESKTOP NAVBAR */}
-      <div className="hidden lg:flex">
+      <div className="hidden lg:flex mt-3">
         <div className="text-2xl my-auto">A'rafi Laksmana</div>
         <nav className="bg-white mx-auto min-w-fit px-8 py-3 rounded-2xl">
           <div className="flex justify-evenly divide-x divide-gray-300 box-border">
@@ -44,8 +44,14 @@ function Navbar() {
           </div>
         </nav>
         <div className="flex gap-4 my-auto">
-          <a href="" className="font-light">LinkedIn</a>
-          <a href="" className="font-light">Instagram</a>
+            <div className="flex space-x-1">
+             <a href="" className="font-light">LinkedIn</a>
+             <img src="/icons/right-up.png" alt="" className="w-4 h-4" />
+            </div>
+            <div className="flex space-x-1">
+             <a href="" className="font-light">Instagram</a>
+             <img src="/icons/right-up.png" alt="" className="w-4 h-4" />
+            </div>
         </div>
       </div>
 
