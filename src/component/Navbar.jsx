@@ -98,8 +98,11 @@ function Navbar() {
                 </div>
                 
               </div>
-              <a href="" className="mt-10 bg-black w-full block text-lg text-left text-white py-4 px-4 rounded-md relative z-10">
-                Get IT Course
+              <a href="www.grouptikom.com" className="bg-black flex text-white py-4 px-3 rounded-lg mt-5 relative">
+                Get IT Certification
+                <span className="bg-white absolute right-2 top-2 rounded-md py-2 px-2">
+                    <img src="../../public/icons/right-up.png" alt="arrow" className="w-6 " />
+                </span>
               </a>
             </motion.div>
           )}
