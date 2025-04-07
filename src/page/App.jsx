@@ -1,10 +1,13 @@
 import { useState } from 'react'
+import Navbar from '../component/Navbar'
 function App() {
   
   return (
-    <div className='bg-black h-screen w-full flex flex-col items-center justify-center'>
-      <h1 className='text-4xl sm:text-2xl text-white font-sans'>Dirga's Website</h1>
-      <p className='text-white font-regular mt-2.5 text-xl'>This website is still under development</p>
+    <div className='bg-[#F4F4F5]'>
+        <Navbar></Navbar>
+        <div className='h-[3000px] flex justify-center align-middle'>
+          <h1 className='text-4xl my-auto font-regular'>Perubahan Masa Depan Terjadi <br /> Karena Kita yang Merubahnya</h1>
+        </div>
     </div>
   )
 }

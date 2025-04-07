@@ -1,10 +1,16 @@
-@font-face{
-    font-family: regular;
-    src: url('../assets/font/IBMPlexSans_Condensed-Regular.ttf')
-}
-
 @import "tailwindcss";
 
+@font-face{
+    font-family: regular;
+    src: url('../assets/font/AeonikTRIAL-Regular.otf')
+}
+@font-face{
+    font-family: light;
+    src: url('../assets/font/AeonikTRIAL-Light.otf')
+}
 @theme{
     --font-regular: regular, 'sans-serif';
+    --font-light: light, 'sans-serif';
 }
+
+
