@@ -32,7 +32,7 @@ function Navbar() {
   };
 
   return (
-    <div className="fixed w-full py-3 px-6 z-10 font-regular border-none backdrop-blur-[3px]">
+    <div className="fixed w-full h-fit py-3 px-6 z-10 font-regular border-none backdrop-blur-[3px]">
       {/* DESKTOP NAVBAR */}
       <div className="hidden lg:flex">
         <div className="text-2xl my-auto">A'rafi Laksmana</div>
@@ -70,9 +70,9 @@ function Navbar() {
               animate="visible"
               exit="exit"
               variants={dropdownVariants}
-              className="-mt-3 bg-white p-4 rounded-b-2xl z-10"
+              className="-mt-3 bg-white p-4 rounded-b-2xl "
             >
-              <div className="flex flex-col gap-2 w-full border-b border-b-gray-300 pb-2 mt-40">
+              <div className="flex flex-col gap-2 w-full border-b border-b-gray-300 pb-2 mt-60">
                 <a href="" className="text-4xl">Archive</a>
                 <a href="" className="text-4xl">About</a>
                 <a href="" className="text-4xl">Contact</a>
@@ -92,9 +92,9 @@ function Navbar() {
                 </div>
                 
               </div>
-              <button className="mt-10 bg-black w-full font-light text-left text-white py-2 px-4 rounded-md">
+              <a href="" className="mt-10 bg-black w-full block font-light text-left text-white py-2 px-4 rounded-md">
                 Get IT Course
-              </button>
+              </a>
             </motion.div>
           )}
         </AnimatePresence>
