@@ -32,7 +32,7 @@ function Navbar() {
   };
 
   return (
-    <div className="fixed w-full h-fit py-3 px-10 z-10 font-regular border-none backdrop-blur-[3px]">
+    <div className="fixed w-full h-fit py-3 px-5 lg:px-10  z-10 font-regular border-none backdrop-blur-[3px]">
       {/* DESKTOP NAVBAR */}
       <div className="hidden lg:flex mt-3">
         <div className="text-2xl my-auto">A'rafi Laksmana</div>
