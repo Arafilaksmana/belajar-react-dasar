@@ -70,7 +70,7 @@ function Navbar() {
               animate="visible"
               exit="exit"
               variants={dropdownVariants}
-              className="-mt-3 bg-white p-4 rounded-b-2xl"
+              className="-mt-3 bg-white p-4 rounded-b-2xl z-10"
             >
               <div className="flex flex-col gap-2 w-full border-b border-b-gray-300 pb-2 mt-40">
                 <a href="" className="text-4xl">Archive</a>
@@ -80,15 +80,15 @@ function Navbar() {
               <div className="flex flex-col gap-3 py-5 border-b border-b-gray-300">
                 <div className="flex space-x-1">
                     <a href="">LinkedIn</a>
-                    <img src="../../public/right-up.png" alt="" className="w-3 h-3" />
+                    <img src="../public/right-up.png" alt="" className="w-3 h-3" />
                 </div>
                 <div className="flex space-x-1">
                     <a href="">Instagram</a>
-                    <img src="../../public/right-up.png" alt="" className="w-3 h-3" />
+                    <img src="../public/right-up.png" alt="" className="w-3 h-3" />
                 </div>
                 <div className="flex space-x-1">
                     <a href="">X</a>
-                    <img src="../../public/right-up.png" alt="" className="w-3 h-3" />
+                    <img src="../public/right-up.png" alt="" className="w-3 h-3" />
                 </div>
                 
               </div>
